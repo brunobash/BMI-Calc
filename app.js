@@ -3,7 +3,6 @@ function calc() {
     var index = document.getElementById("index");
     var height = parseInt(document.getElementById("height").value);
     var weight = parseInt(document.getElementById("weight").value);
-    var category = document.getElementById("category");
 
     document.getElementById("weight-value").textContent = weight + "kg";
     document.getElementById("height-value").textContent = height + "cm" ;
@@ -26,5 +25,5 @@ function calc() {
         output.style.color = "#ff5e57";
     }
 
-    //document.getElementById("category").textContent = category;
+    document.getElementById("category").textContent = category;
 }
