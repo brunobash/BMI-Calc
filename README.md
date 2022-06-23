@@ -1,3 +1,3 @@
 # BMI-Calc
-## Calculate your Body Mass Index(BMI).
+### Calculate your Body Mass Index(BMI).
 
